@@ -13,7 +13,7 @@ echo $out_dir
 out_file_ext=${3:-"mp4"}
 echo $out_file_ext
 
-in_file_exts=( "**/*.avi" "**/*.mkv" "**/*.mp4" "**/*.m4v" "**/*.ts" "**/*.mpg")
+in_file_exts=( "**/*.avi" "**/*.mkv" "**/*.mp4" "**/*.m4v" "**/*.ts" "**/*.mpg" "**/*.wmv" "**/*.flv")
 videocodecs=( "h264" )
 audiocodecs=( "aac" "ac3")
 
